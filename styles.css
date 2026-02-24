@@ -128,3 +128,44 @@ body{
 .hero-bottom img{
     width: 1320px;
 }
+
+/* Trusted Section */
+.trusted-section{
+    max-width: 1400px;
+    margin: 6rem auto;
+    padding: 0 40px;
+    text-align: center;
+}
+
+.trusted-section h3{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 2.5rem;
+    letter-spacing: 0.3px;
+}
+
+.trusted-logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+}
+
+.logo-box{
+    background-color: #1b1913;
+    border: 1px solid #2a2a2a;
+    border-radius: 8px;
+    padding: 32px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 140px;
+}
+
+.logo-box span{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+}
