@@ -156,7 +156,7 @@ body{
 .logo-box{
     background-color: #1b1913;
     border: 1px solid #2a2a2a;
-    border-radius: 8px;
+    border-radius: 6px;
     padding: 32px 30px;
     display: flex;
     justify-content: center;
@@ -181,6 +181,7 @@ body{
     align-items: center;
     background-color: #1b1913;
     padding: 20px 40px;
+    border-radius: 6px;
 }
 
 .feature-card-left{
@@ -234,55 +235,6 @@ body{
     border-radius: 12px;
 }
 
-/* Alternate feature card layout */
-.feature-card-alt{
-    flex-direction: row-reverse;
-}
-
-.feature-card-alt .feature-card-right{
-    background-color: transparent;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-
-.feature-card-alt .feature-card-right h3{
-    font-size: 24px;
-    font-weight: 300;
-    line-height: 1.2;
-    margin-bottom: 0.5rem;
-    color: #fff;
-}
-
-.feature-card-alt .feature-card-right p{
-    font-size: 24px;
-    font-weight: 300;
-    color: #8b8b8b;
-    line-height: 1.6;
-    margin-bottom: 1.5rem;
-}
-
-.feature-card-alt .feature-card-right .learn-link{
-    color: #ff6b35;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 400;
-    display: inline-block;
-}
-
-.feature-card-alt .feature-card-right .learn-link:hover{
-    text-decoration: underline;
-}
-
-.feature-card-alt .feature-card-left{
-    background-color: #1c1c1c;
-    border-radius: 12px;
-    min-height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 /* Testimonials Section */
 .testimonials-section{
     max-width: 1400px;
@@ -307,7 +259,7 @@ body{
 .testimonial-card{
     background-color: #1b1913;
     border: 1px solid #2a2a2a;
-    border-radius: 12px;
+    border-radius: 6px;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -372,7 +324,7 @@ body{
 .use-case-card{
     background-color: #1b1913;
     border: 1px solid #2a2a2a;
-    border-radius: 12px;
+    border-radius: 6px;
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -440,7 +392,7 @@ body{
 .changelog-card{
     background-color: #1b1913;
     border: 1px solid #2a2a2a;
-    border-radius: 12px;
+    border-radius: 6px;
     padding: 1.5rem;
 }
 
@@ -479,6 +431,62 @@ body{
     display: inline-block;
 }
 
+/* Team Section */
+.team-section{
+    max-width: 1400px;
+    margin: 8rem auto;
+    padding: 0 40px;
+}
+
+.team-content{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    background-color: #1b1913;
+    border: 1px solid #2a2a2a;
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+.team-text{
+    flex: 0 0 30%;
+}
+
+.team-text p{
+    font-size: 22px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+}
+
+.team-link{
+    color: #ff6b35;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.team-link:hover{
+    text-decoration: underline;
+}
+
+.team-image{
+    flex: 1;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    min-height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.team-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
 .changelog-link:hover{
     text-decoration: underline;
 }
