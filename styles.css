@@ -282,3 +282,69 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+/* Testimonials Section */
+.testimonials-section{
+    max-width: 1400px;
+    margin: 8rem auto;
+    padding: 0 40px;
+    text-align: center;
+}
+
+.testimonials-section h2{
+    font-size: 44px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+.testimonials-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.testimonial-card{
+    background-color: #1b1913;
+    border: 1px solid #2a2a2a;
+    border-radius: 12px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.testimonial-quote{
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.testimonial-author{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-align: left;
+}
+
+.testimonial-author img{
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.author-name{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.author-title{
+    font-size: 15px;
+    font-weight: 300;
+    color: #888;
+}
