@@ -490,3 +490,138 @@ body{
 .changelog-link:hover{
     text-decoration: underline;
 }
+/* CTA Section */
+.cta-section{
+    max-width: 1400px;
+    margin: 8rem auto;
+    padding: 4rem 40px;
+    text-align: center;
+}
+
+.cta-section h2{
+    font-size: 86px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.cta-button{
+    padding: 14px 32px;
+    background-color: #e8e8e8;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.cta-button:hover{
+    background-color: #fff;
+}
+
+/* Footer */
+footer{
+    background-color: #0d0d0d;
+    border-top: 1px solid #2a2a2a;
+    margin-top: 8rem;
+}
+
+.footer-content{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 4rem 40px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+}
+
+.footer-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-title{
+    font-size: 15px;
+    font-weight: 400;
+    color: #8b8b8b;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+.footer-column ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.footer-column ul li a{
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer-column ul li a:hover{
+    color: #ff6b35;
+}
+
+.footer-bottom{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #2a2a2a;
+}
+
+.footer-copyright{
+    font-size: 16px;
+    font-weight: 300;
+    color: #666;
+}
+
+.footer-right{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footer-icons{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-icons a{
+    color: #666;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.footer-icons a:hover{
+    color: #fff;
+}
+
+.language-select{
+    background-color: transparent;
+    border: none;
+    color: #666;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 4px 8px;
+}
+
+.language-select:hover{
+    color: #fff;
+}
+
+.language-select option{
+    background-color: #1a1a1a;
+    color: #fff;
+}
