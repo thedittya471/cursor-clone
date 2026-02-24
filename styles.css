@@ -6,6 +6,7 @@
 
 body{
     background-color: #14120b;
+    color: #fff;
 }
 
 .navbar{
@@ -64,4 +65,66 @@ body{
     border-radius: 50px;
     border: none;
     cursor: pointer;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4rem;
+    max-width: 1400px;
+    margin: 4rem auto;
+    padding: 40px 0;
+}
+
+.hero-top{
+    padding: 0 40px;
+}
+
+.hero-top h4{
+    font-size: 18px;
+    font-weight: 300;
+    color: #8b8b8b;
+    margin-bottom: 14px;
+    letter-spacing: 0.5px;
+}
+
+.hero-top h1{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 22px;
+}
+
+.hero-top h1 span{
+    color: #fff;
+}
+
+.hero-top h1{
+    color: #7a7a7a;
+}
+
+.hero-download-btn{
+    padding: 12px 28px;
+    background-color: #e8e8e8;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.hero-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 40px;
+}
+
+.hero-bottom img{
+    width: 1320px;
 }
